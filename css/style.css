@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 251, 0);
+    
+    padding: 1rem 5%;
+}
+nav  h1 {
+    color: rgb(61, 61, 61);
+    font-weight: 800;
+}
+h1 a {
+    color: rgb(61, 61, 61);
+    text-decoration: none;
+
+}
+
+nav .sections a {
+    color: rgb(255, 251, 0);
+    text-decoration: none;
+    background: rgb(61, 61, 61);
+    padding: .4rem 1.2rem;
+    border-radius: 50px;
+}
+/* map */
+
+.map {
+    background: rgb(255, 251, 0);
+    width: 90%;
+    height: 80vh;
+    margin: 2rem auto 0rem auto;
+    border-radius: 10px;
+
+}
+
+.data {
+    /* background: rgb(255, 251, 0); */
+    width: 90%;
+    margin: 2rem auto 0rem auto;
+}
+
+.data h2 {
+    width: 100%;
+    text-align: center;
+    color: rgb(61, 61, 61);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.api-data{
+    display: flex;
+    justify-content: space-between;
+}
+
+.data .item {
+    width: 350px;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.item .number {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+.item .location {
+    color: rgb(61, 61, 61);
+    font-weight: bolder;
+}
+
+.api-data > :nth-child(1) > .number{
+    color: orange;
+}
+
+.api-data > :nth-child(2) > .number{
+    color: #00FF71;
+}
+
+.api-data > :nth-child(3) > .number{
+    color: crimson;
+}
+
+
+.author{
+    width: 90%;
+    margin: auto;
+    color: rgb(61, 61, 61);
+}
+.author a {
+    color: rgb(61, 61, 61);
+}
+
+@media screen and (max-width: 550px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav  h1 {
+        margin-bottom: 1rem;
+    }
+    .api-data {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}

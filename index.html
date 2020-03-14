@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estado actual del Covid19</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css">
+
+</head>
+<body>
+    <nav>
+        <h1> <a href="index.html">Estado actual del <span>Covid19</span></a> </h1>
+        <div class="sections">
+            <a href="info.html">Información relevante</a>
+        </div>
+    </nav>
+
+    <div class="map" id="map">
+
+    </div>
+
+    <div class="data">
+        <h2>Numeros Globales 🌎️</h2>
+        <div class="api-data">
+            <div class="item">
+                <div class="number" id="number-infectados">120,000</div>
+                <p class="location">Infectados</p>
+            </div>
+            <div class="item">
+                <div class="number" id="number-recuperados">60,000</div>
+                <p class="location">Recuperados</p>
+            </div>
+            <div class="item">
+                <div class="number" id="number-muertos">4,300</div>
+                <p class="location">Muertos</p>
+            </div>
+        </div>
+    </div>
+    <p class="author">Hecho por <a href="hub.com/jesusrobot">Jesus M. Velasco</a></p>
+
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>	  
+    <script src="js/map.js"></script>
+    <script src="js/counter.js"></script>
+
+</body>
+</html>
