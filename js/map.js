@@ -35,7 +35,7 @@ async function getData() {
 }
 
 const customIcon = new L.Icon({
-    iconUrl: '/assets/M.png',
+    iconUrl: './assets/M.png',
     iconSize: [50, 50],
     iconAnchor: [25, 50]
 });
